@@ -1,3 +1,6 @@
+
+// +layout.js
+
 export function load() {
 	return {
 		sections: [
