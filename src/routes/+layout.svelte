@@ -10,6 +10,8 @@
 	{#each data.sections as section}
 		<a href="/{section.slug}">{section.title}</a> &nbsp;
 	{/each}
+	<a href="/blog">Our Blog</a> &nbsp;
+	<a href="/team">Our Team</a> &nbsp;
 </nav>
 
 <main>

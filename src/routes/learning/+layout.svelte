@@ -1,5 +1,5 @@
 
-<!-- +layout.svelte --> 
+<!-- learning/+layout.svelte --> 
 
 <script>
 	export let data;
