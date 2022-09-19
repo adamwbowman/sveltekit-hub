@@ -1,5 +1,5 @@
 
-// learning/+layout.js
+// resources/+layout.js
 
 export function load() {
 	return {

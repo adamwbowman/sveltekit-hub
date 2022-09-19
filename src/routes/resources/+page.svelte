@@ -1,4 +1,4 @@
 
-<!-- learning/+page.svelte --> 
+<!-- resources/+page.svelte --> 
 
-<h1>Learning</h1>
+<h1>Resources</h1>

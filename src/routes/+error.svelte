@@ -1,3 +1,6 @@
+
+<!-- +error.svelte --> 
+
 <script>
 	import { page } from '$app/stores';
 

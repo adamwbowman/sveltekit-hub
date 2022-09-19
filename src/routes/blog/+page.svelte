@@ -1,4 +1,4 @@
 
-<!-- +page.svelte --> 
+<!-- blog/+page.svelte --> 
 
-<h1>Blog</h1>
+<h1>Our Blog</h1>
