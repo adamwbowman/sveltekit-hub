@@ -9,7 +9,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </svelte:head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/#">
 			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-lightbulb text-warning" viewBox="0 0 16 16">
@@ -20,12 +20,14 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				{#each data.sections as section}
-					<li class="nav-item">
-						<a class="nav-link" href="/{section.slug}">{section.title}</a>
-					</li>
-				{/each}
+			<ul class="navbar-nav me-auto">
+			{#each data.sections as section}
+				<li class="nav-item">
+					<a class="nav-link" href="/{section.slug}">{section.title}</a>
+				</li>
+			{/each}
+			</ul>
+			<ul class="nav navbar-nav">
 				<li class="nav-item">
 					<a class="nav-link active" href="/blog">Our Blog</a>
 				</li>
@@ -38,9 +40,7 @@
 </nav>
 
 <main>
-	<div class="container">
-		<slot />
-	</div>
+	<slot />
 </main>
 
 <footer class="container py-5">
