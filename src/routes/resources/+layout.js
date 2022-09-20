@@ -4,9 +4,9 @@
 export function load() {
 	return {
 		sections: [
-			{ slug: 'rea-1', title: 'rea-1' },
-			{ slug: 'rea-2', title: 'rea-2' },
-			{ slug: 'rea-3', title: 'rea-3' }
+			{ route: 'rea-1', title: 'Link here' },
+			{ route: 'rea-2', title: 'Link here' },
+			{ route: 'rea-3', title: 'Link here' }
 		]
 	};
 }

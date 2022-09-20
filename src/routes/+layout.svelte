@@ -23,7 +23,7 @@
 			<ul class="navbar-nav me-auto">
 			{#each data.sections as section}
 				<li class="nav-item">
-					<a class="nav-link" href="/{section.slug}">{section.title}</a>
+					<a class="nav-link" href="/{section.route}">{section.title}</a>
 				</li>
 			{/each}
 			</ul>

@@ -10,7 +10,7 @@
 		<ul class="navbar-nav">
 		{#each data.sections as section}
 			<li class="nav-item py-0">
-				<a class="nav-link py-0" href="/{section.slug}"><small>{section.title}</small></a>
+				<a class="nav-link py-0" href="/{section.route}"><small>{section.title}</small></a>
 			</li>
 		{/each}
 		</ul>
