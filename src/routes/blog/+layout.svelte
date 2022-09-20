@@ -8,7 +8,7 @@
 
 
 {#each data.posts as post}
-<p>{post.title}: {post.month}/{post.day}/{post.year}</p> &nbsp;
+	<p>{post.title}: {post.month}/{post.day}/{post.year}</p> &nbsp;
 {/each}
 
 <h3>

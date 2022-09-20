@@ -10,7 +10,7 @@
 	} = $page;
 	const title = `${status}: ${message}`;
 </script>
- 
+
 <svelte:head>
 	<title>{title}</title>
 </svelte:head>
