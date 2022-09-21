@@ -4,9 +4,9 @@
 export function load() {
 	return {
 		sections: [
-			{ route: 'lea-1', title: 'Link here' },
-			{ route: 'lea-2', title: 'Link here' },
-			{ route: 'lea-3', title: 'Link here' }
+			{ route: 'learning-1', title: 'Learning Group #1' },
+			{ route: 'learning-1', title: 'Learning Group #2' },
+			{ route: 'learning-1', title: 'Learning Group #3' }
 		]
 	};
 }

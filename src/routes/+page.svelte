@@ -1,7 +1,7 @@
 
 <!-- +page.svelte --> 
 
-<section class="container">
+<section class="container mt-2">
 	<div class="row">
 		<div class="col-1">&nbsp;</div>
 		<div class="col-10 d-flex justify-content-center">

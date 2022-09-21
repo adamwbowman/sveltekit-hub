@@ -9,7 +9,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </svelte:head>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark opacity-75 border-bottom border-warning border-3">
+<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark opacity-75 border-bottom border-warning border-3">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/#">
 			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-lightbulb text-warning" viewBox="0 0 16 16">
@@ -39,7 +39,7 @@
 	</div>
 </nav>
 
-<main>
+<main class="pt-5">
 	<slot />
 </main>
 
@@ -54,67 +54,34 @@
 		<div class="col-6 col-md">
 			<h5>Efforts</h5>
 			<ul class="list-unstyled text-small">
-				<li><a class="link-secondary" href="/#">Link here</a></li>
-				<li><a class="link-secondary" href="/#">Link here</a></li>
-				<li><a class="link-secondary" href="/#">Link here</a></li>
+				<li><a class="link-secondary" href="/#">Way of Working</a></li>
+				<li><a class="link-secondary" href="/#">Way of Delivering</a></li>
+				<li><a class="link-secondary" href="/#">High Performance</a></li>
+				<li><a class="link-secondary" href="/#">Global Teams</a></li>
 			</ul>
 		</div>
 		<div class="col-6 col-md">
 			<h5>Resources</h5>
 			<ul class="list-unstyled text-small">
-				<li><a class="link-secondary" href="/#">Link here</a></li>
-				<li><a class="link-secondary" href="/#">Link here</a></li>
-				<li><a class="link-secondary" href="/#">Link here</a></li>
+				<li><a class="link-secondary" href="/#">#category</a></li>
+				<li><a class="link-secondary" href="/#">#category</a></li>
+				<li><a class="link-secondary" href="/#">#category</a></li>
 			</ul>
 		</div>
 		<div class="col-6 col-md">
 			<h5>Learning</h5>
 			<ul class="list-unstyled text-small">
-				<li><a class="link-secondary" href="/#">Link here</a></li>
-				<li><a class="link-secondary" href="/#">Link here</a></li>
-				<li><a class="link-secondary" href="/#">Link here</a></li>
+				<li><a class="link-secondary" href="/#">Learning Group #1</a></li>
+				<li><a class="link-secondary" href="/#">Learning Group #2</a></li>
+				<li><a class="link-secondary" href="/#">Learning Group #3</a></li>
 			</ul>
 		</div>
 		<div class="col-6 col-md">
 			<h5>Our Team</h5>
 			<ul class="list-unstyled text-small">
-				<li><a class="link-secondary" href="/#">Link here</a></li>
-				<li><a class="link-secondary" href="/#">Link here</a></li>
-				<li><a class="link-secondary" href="/#">Link here</a></li>
+				<li><a class="link-secondary" href="/#">Our Blog</a></li>
+				<li><a class="link-secondary" href="/#">About Us</a></li>
 			</ul>
 		</div>
 	</div>
 </footer>
-
-<style>
-	/* extra small screen - xs */
-/* @media only screen and (max-width: 576px) {
-	main {
-		background-color: rgb(248, 185, 91);
-	}
-} */
-/* small screen - sm */
-/* @media (min-width: 576px) and (max-width: 768px) {
-	main {
-		background-color: rgba(248, 185, 91, 0.747);
-	}
-} */
-/* medium screen - md */
-/* @media (min-width: 768px) and (max-width: 992px) {
-	main {
-		background-color: rgb(73, 196, 73);
-	}
-} */
-/* large screen - lg */
-/* @media (min-width: 992px) and (max-width: 1200px) {
-	main {
-		background-color: rgb(79, 184, 184);
-	}
-} */
-/* extra large screen - xl */
-/* @media (min-width: 1200px) and (max-width: 1600px) {
-	main {
-		background-color: rgb(140, 142, 245);
-	}
-} */
-</style>

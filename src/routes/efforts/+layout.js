@@ -4,9 +4,10 @@
 export function load() {
 	return {
 		sections: [
-			{ route: 'eff-1', title: 'Link here' },
-			{ route: 'eff-2', title: 'Link here' },
-			{ route: 'eff-3', title: 'Link here' }
+			{ route: 'efforts-1', title: 'Way of Working' },
+			{ route: 'efforts-1', title: 'Way of Delivering' },
+			{ route: 'efforts-1', title: 'High Performance' },
+			{ route: 'efforts-1', title: 'Global Teams' },
 		]
 	};
 }

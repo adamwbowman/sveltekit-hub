@@ -5,7 +5,7 @@
 	export let data;
 </script>
 
-<nav class="navbar navbar-expand" style="background-color: #fcecbb;">
+<nav class="navbar navbar-expand mt-2" style="background-color: #fcecbb;">
 	<div class="container-fluid justify-content-center">
 		<ul class="navbar-nav">
 		{#each data.sections as section}
