@@ -9,7 +9,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </svelte:head>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark border-bottom border-warning border-3">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark opacity-75 border-bottom border-warning border-3">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/#">
 			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-lightbulb text-warning" viewBox="0 0 16 16">
@@ -43,9 +43,9 @@
 	<slot />
 </main>
 
-<footer class="container py-5">
+<footer class="container">
 	<div class="row">
-		<div class="col-12 col-md">
+		<div class="col-12 col-md py-3">
 			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
 				<path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
 			</svg>
@@ -85,3 +85,36 @@
 		</div>
 	</div>
 </footer>
+
+<style>
+	/* extra small screen - xs */
+/* @media only screen and (max-width: 576px) {
+	main {
+		background-color: rgb(248, 185, 91);
+	}
+} */
+/* small screen - sm */
+/* @media (min-width: 576px) and (max-width: 768px) {
+	main {
+		background-color: rgba(248, 185, 91, 0.747);
+	}
+} */
+/* medium screen - md */
+/* @media (min-width: 768px) and (max-width: 992px) {
+	main {
+		background-color: rgb(73, 196, 73);
+	}
+} */
+/* large screen - lg */
+/* @media (min-width: 992px) and (max-width: 1200px) {
+	main {
+		background-color: rgb(79, 184, 184);
+	}
+} */
+/* extra large screen - xl */
+/* @media (min-width: 1200px) and (max-width: 1600px) {
+	main {
+		background-color: rgb(140, 142, 245);
+	}
+} */
+</style>
