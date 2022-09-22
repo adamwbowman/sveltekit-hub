@@ -11,8 +11,8 @@
 	const title = `${status}: ${message}`;
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
 	<title>{title}</title>
-</svelte:head>
+</svelte:head> -->
 
 <h1>{title}</h1>
