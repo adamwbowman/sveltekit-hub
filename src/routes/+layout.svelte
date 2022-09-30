@@ -89,6 +89,5 @@
 <style>
 	nav {
 		border-bottom: 5px solid rgb(21, 74, 146);
-		/* border-color: rgb(21, 74, 146)" */
 	}
 </style>
