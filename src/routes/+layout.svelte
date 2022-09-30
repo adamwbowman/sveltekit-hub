@@ -88,10 +88,6 @@
 
 <style>
 	nav {
-<<<<<<< HEAD
-		border-bottom: 5px solid rgb(21, 74, 146);
-=======
 		border-bottom: 5px solid rgb(0, 130, 192);
->>>>>>> refs/remotes/origin/main
 	}
 </style>
